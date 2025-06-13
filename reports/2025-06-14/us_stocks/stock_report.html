@@ -1,0 +1,1465 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>美国 (S&P 500)异动分析报告 - 2025-06-14</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+/* --- 基础与布局 --- */
+body { 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; 
+    margin: 0; 
+    background-color: #f8f9fa; 
+    color: #212529; 
+    line-height: 1.7; 
+}
+.main-container { 
+    display: grid; 
+    grid-template-columns: 280px 1fr; 
+    gap: 2rem; 
+    padding: 2rem; 
+    max-width: 1400px; 
+    margin: 0 auto; 
+}
+.sidebar { 
+    position: sticky; 
+    top: 2rem; 
+    align-self: start; 
+    height: calc(100vh - 4rem); 
+    overflow-y: auto; 
+}
+.main-content { 
+    background-color: #ffffff; 
+    padding: 2.5rem; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); 
+}
+
+/* --- 目录样式 --- */
+.toc h3 { 
+    font-size: 1.2rem; 
+    color: #343a40; 
+    border-bottom: 2px solid #007bff; 
+    padding-bottom: 0.5rem; 
+    margin-top: 0; 
+}
+.toc ul { 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+.toc li a { 
+    display: block; 
+    padding: 0.6rem 1rem; 
+    color: #495057; 
+    text-decoration: none; 
+    border-radius: 6px; 
+    transition: background-color 0.2s ease, color 0.2s ease; 
+}
+.toc li a:hover, .toc li a:focus { 
+    background-color: #e9ecef; 
+    color: #0056b3; 
+    font-weight: 600; 
+}
+
+/* --- 主体内容样式 --- */
+h1, h2, h3 { 
+    color: #1a1a1a; 
+    border-bottom: 1px solid #dee2e6; 
+    padding-bottom: 0.6rem; 
+    margin-top: 2.5rem; 
+}
+h1 { 
+    text-align: center; 
+    border: none; 
+    font-size: 2.5rem; 
+    margin-top: 0; 
+    margin-bottom: 0.5rem; 
+}
+.report-date { 
+    text-align: center; 
+    color: #6c757d; 
+    margin-bottom: 2.5rem; 
+}
+.stock-card:first-of-type h2 { 
+    margin-top: 0; 
+}
+.stock-card { 
+    padding-bottom: 1rem; 
+    margin-bottom: 2.5rem; 
+    border-bottom: 1px solid #dee2e6; 
+}
+.stock-card:last-child { 
+    border-bottom: none; 
+    margin-bottom: 0; 
+}
+.metrics { 
+    color: #495057; 
+    font-size: 0.95em; 
+    margin: 1.5rem 0; 
+    background-color: #f8f9fa; 
+    padding: 0.75rem 1.25rem; 
+    border-radius: 6px; 
+    display: flex; 
+    justify-content: space-around; 
+}
+.metrics span { 
+    font-weight: 600; 
+}
+.chart { 
+    max-width: 100%; 
+    height: auto; 
+    border: 1px solid #ced4da; 
+    margin: 1.5rem 0; 
+    display: block; 
+    border-radius: 8px; 
+}
+
+/* --- Markdown 渲染区域样式 --- */
+.summary-content {
+    background: #fdfdff;
+    padding: 0 1.5rem;
+    border-left: 5px solid #007bff;
+    border-radius: 4px;
+    font-family: "Microsoft Yahei", "PingFang SC", sans-serif;
+}
+.summary-content > *:first-child {
+    margin-top: 1em;
+}
+.summary-content > *:last-child {
+    margin-bottom: 1em;
+}
+.summary-content h1, .summary-content h2, .summary-content h3, .summary-content h4 {
+    margin-top: 1.5em;
+    margin-bottom: 0.6em;
+    border-bottom: 1px solid #e9ecef;
+}
+.summary-content p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.summary-content ul, .summary-content ol {
+    padding-left: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.summary-content pre {
+    background-color: #f0f0f0;
+    padding: 1em;
+    border-radius: 6px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+</style>
+</head>
+<body>
+    <div class="main-container">
+        <aside class="sidebar">
+            <div class="toc"><h3>报告目录</h3><ul><li><a href="#ADSK">Autodesk Inc (ADSK)</a></li><li><a href="#ADP">Automatic Data Processing (ADP)</a></li><li><a href="#ISRG">Intuitive Surgical Inc. (ISRG)</a></li><li><a href="#MAR">Marriot International Class A Common Stock (MAR)</a></li><li><a href="#MA">Mastercard Incorporated (MA)</a></li><li><a href="#NWSA">News Corporation Class A Common Stock (NWSA)</a></li><li><a href="#NWS">News Corporation Class B Common Stock (NWS)</a></li><li><a href="#PKG">Packaging Corp of America (PKG)</a></li><li><a href="#PNR">Pentair plc (PNR)</a></li><li><a href="#SPGI">S&P Global Inc. (SPGI)</a></li><li><a href="#SHW">The Sherwin-Williams Company (SHW)</a></li><li><a href="#NOW">SERVICENOW, INC. (NOW)</a></li><li><a href="#TMUS">T-Mobile US, Inc. (TMUS)</a></li><li><a href="#GWW">W.W. Grainger, Inc. (GWW)</a></li></ul></div>
+        </aside>
+        <main class="main-content">
+            
+        <h1>美国 (S&P 500)异动分析报告</h1>
+        <p class="report-date">报告生成日期: 2025-06-14</p>
+    
+    <div class="stock-card" id="ADSK">
+        <h2>Autodesk Inc (ADSK)</h2>
+        <div class="metrics">
+            <span>R²: 0.756</span>
+            <span>斜率: 0.13</span>
+            <span>布林带穿透: 0.35%</span>
+        </div>
+        <img src="ADSK_chart.png" alt="ADSK 走势图" class="chart">
+        <h3>分析师模型总结</h3>
+        <div class="summary-content">**[调试模式输出]**
+
+**股票信息：Autodesk Inc (ADSK)**
+**当前价格：$291.44**
+
+---
+
+**📊 输入给大模型的数据（调试信息）：**
+
+**基本面数据：**
+- Market Cap: $63.80B
+- Pe Ratio: 56.43x
+- Ps Ratio: 10.41x
+- Pb Ratio: 24.34x
+- Eps Basic: $5.17
+- Revenue Annual: $6.13B
+- Net Income Annual: $1.11B
+- Debt To Equity: 3.13
+
+**新闻信息（10条）：**
+- 来源：MockNews1
+  时间：2025-01-01
+  标题：[假新闻1] ADSK 公司重要动态更新
+  内容/摘要：这是关于 ADSK 的第1条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews2
+  时间：2025-01-01
+  标题：[假新闻2] ADSK 公司重要动态更新
+  内容/摘要：这是关于 ADSK 的第2条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews3
+  时间：2025-01-01
+  标题：[假新闻3] ADSK 公司重要动态更新
+  内容/摘要：这是关于 ADSK 的第3条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews4
+  时间：2025-01-01
+  标题：[假新闻4] ADSK 公司重要动态更新
+  内容/摘要：这是关于 ADSK 的第4条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews5
+  时间：2025-01-01
+  标题：[假新闻5] ADSK 公司重要动态更新
+  内容/摘要：这是关于 ADSK 的第5条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews6
+  时间：2025-01-01
+  标题：[假新闻6] ADSK 公司重要动态更新
+  内容/摘要：这是关于 ADSK 的第6条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews7
+  时间：2025-01-01
+  标题：[假新闻7] ADSK 公司重要动态更新
+  内容/摘要：这是关于 ADSK 的第7条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews8
+  时间：2025-01-01
+  标题：[假新闻8] ADSK 公司重要动态更新
+  内容/摘要：这是关于 ADSK 的第8条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews9
+  时间：2025-01-01
+  标题：[假新闻9] ADSK 公司重要动态更新
+  内容/摘要：这是关于 ADSK 的第9条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews10
+  时间：2025-01-01
+  标题：[假新闻10] ADSK 公司重要动态更新
+  内容/摘要：这是关于 ADSK 的第10条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+
+**图表路径：** reports/2025-06-14/us_stocks/ADSK_chart.png
+
+---
+
+**🤖 模拟分析结果：**
+
+**1. 核心业务与基本面评估：**
+这是 Autodesk Inc 的模拟分析报告。在调试模式下，我们跳过了实际的LLM调用，但可以查看上述输入数据来验证数据获取是否正常。
+
+**2. 技术面与消息面分析：**
+- **技术分析：** 该股票突破了布林带上轨，显示强烈的上涨动量
+- **消息面：** 收到了10条相关新闻，可在上方查看具体内容
+
+**3. 综合前景展望与量化判断：**
+- **短期展望：** 基于技术分析，预期继续上涨
+- **长期展望：** 看好
+- **目标价：** $320.58（上涨空间 +10%）
+
+**⚠️ 注意：这是调试模式的模拟输出，用于快速测试系统功能和验证数据获取。**
+</div>
+    </div>
+    
+    <div class="stock-card" id="ADP">
+        <h2>Automatic Data Processing (ADP)</h2>
+        <div class="metrics">
+            <span>R²: 0.849</span>
+            <span>斜率: 0.13</span>
+            <span>布林带穿透: 0.92%</span>
+        </div>
+        <img src="ADP_chart.png" alt="ADP 走势图" class="chart">
+        <h3>分析师模型总结</h3>
+        <div class="summary-content">**[调试模式输出]**
+
+**股票信息：Automatic Data Processing (ADP)**
+**当前价格：$306.40**
+
+---
+
+**📊 输入给大模型的数据（调试信息）：**
+
+**基本面数据：**
+- Market Cap: $132.42B
+- Pe Ratio: 33.55x
+- Ps Ratio: 6.90x
+- Pb Ratio: 29.12x
+- Eps Basic: $9.14
+- Revenue Annual: $19.20B
+- Net Income Annual: $3.75B
+- Debt To Equity: 10.95
+
+**新闻信息（10条）：**
+- 来源：MockNews1
+  时间：2025-01-01
+  标题：[假新闻1] ADP 公司重要动态更新
+  内容/摘要：这是关于 ADP 的第1条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews2
+  时间：2025-01-01
+  标题：[假新闻2] ADP 公司重要动态更新
+  内容/摘要：这是关于 ADP 的第2条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews3
+  时间：2025-01-01
+  标题：[假新闻3] ADP 公司重要动态更新
+  内容/摘要：这是关于 ADP 的第3条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews4
+  时间：2025-01-01
+  标题：[假新闻4] ADP 公司重要动态更新
+  内容/摘要：这是关于 ADP 的第4条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews5
+  时间：2025-01-01
+  标题：[假新闻5] ADP 公司重要动态更新
+  内容/摘要：这是关于 ADP 的第5条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews6
+  时间：2025-01-01
+  标题：[假新闻6] ADP 公司重要动态更新
+  内容/摘要：这是关于 ADP 的第6条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews7
+  时间：2025-01-01
+  标题：[假新闻7] ADP 公司重要动态更新
+  内容/摘要：这是关于 ADP 的第7条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews8
+  时间：2025-01-01
+  标题：[假新闻8] ADP 公司重要动态更新
+  内容/摘要：这是关于 ADP 的第8条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews9
+  时间：2025-01-01
+  标题：[假新闻9] ADP 公司重要动态更新
+  内容/摘要：这是关于 ADP 的第9条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews10
+  时间：2025-01-01
+  标题：[假新闻10] ADP 公司重要动态更新
+  内容/摘要：这是关于 ADP 的第10条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+
+**图表路径：** reports/2025-06-14/us_stocks/ADP_chart.png
+
+---
+
+**🤖 模拟分析结果：**
+
+**1. 核心业务与基本面评估：**
+这是 Automatic Data Processing 的模拟分析报告。在调试模式下，我们跳过了实际的LLM调用，但可以查看上述输入数据来验证数据获取是否正常。
+
+**2. 技术面与消息面分析：**
+- **技术分析：** 该股票突破了布林带上轨，显示强烈的上涨动量
+- **消息面：** 收到了10条相关新闻，可在上方查看具体内容
+
+**3. 综合前景展望与量化判断：**
+- **短期展望：** 基于技术分析，预期继续上涨
+- **长期展望：** 看好
+- **目标价：** $337.04（上涨空间 +10%）
+
+**⚠️ 注意：这是调试模式的模拟输出，用于快速测试系统功能和验证数据获取。**
+</div>
+    </div>
+    
+    <div class="stock-card" id="ISRG">
+        <h2>Intuitive Surgical Inc. (ISRG)</h2>
+        <div class="metrics">
+            <span>R²: 0.887</span>
+            <span>斜率: 0.41</span>
+            <span>布林带穿透: 0.33%</span>
+        </div>
+        <img src="ISRG_chart.png" alt="ISRG 走势图" class="chart">
+        <h3>分析师模型总结</h3>
+        <div class="summary-content">**[调试模式输出]**
+
+**股票信息：Intuitive Surgical Inc. (ISRG)**
+**当前价格：$511.26**
+
+---
+
+**📊 输入给大模型的数据（调试信息）：**
+
+**基本面数据：**
+- Market Cap: $200.02B
+- Pe Ratio: 78.27x
+- Ps Ratio: 23.95x
+- Pb Ratio: 12.10x
+- Eps Basic: $6.54
+- Revenue Annual: $8.35B
+- Net Income Annual: $2.34B
+- Debt To Equity: 0.13
+
+**新闻信息（10条）：**
+- 来源：MockNews1
+  时间：2025-01-01
+  标题：[假新闻1] ISRG 公司重要动态更新
+  内容/摘要：这是关于 ISRG 的第1条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews2
+  时间：2025-01-01
+  标题：[假新闻2] ISRG 公司重要动态更新
+  内容/摘要：这是关于 ISRG 的第2条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews3
+  时间：2025-01-01
+  标题：[假新闻3] ISRG 公司重要动态更新
+  内容/摘要：这是关于 ISRG 的第3条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews4
+  时间：2025-01-01
+  标题：[假新闻4] ISRG 公司重要动态更新
+  内容/摘要：这是关于 ISRG 的第4条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews5
+  时间：2025-01-01
+  标题：[假新闻5] ISRG 公司重要动态更新
+  内容/摘要：这是关于 ISRG 的第5条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews6
+  时间：2025-01-01
+  标题：[假新闻6] ISRG 公司重要动态更新
+  内容/摘要：这是关于 ISRG 的第6条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews7
+  时间：2025-01-01
+  标题：[假新闻7] ISRG 公司重要动态更新
+  内容/摘要：这是关于 ISRG 的第7条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews8
+  时间：2025-01-01
+  标题：[假新闻8] ISRG 公司重要动态更新
+  内容/摘要：这是关于 ISRG 的第8条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews9
+  时间：2025-01-01
+  标题：[假新闻9] ISRG 公司重要动态更新
+  内容/摘要：这是关于 ISRG 的第9条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews10
+  时间：2025-01-01
+  标题：[假新闻10] ISRG 公司重要动态更新
+  内容/摘要：这是关于 ISRG 的第10条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+
+**图表路径：** reports/2025-06-14/us_stocks/ISRG_chart.png
+
+---
+
+**🤖 模拟分析结果：**
+
+**1. 核心业务与基本面评估：**
+这是 Intuitive Surgical Inc. 的模拟分析报告。在调试模式下，我们跳过了实际的LLM调用，但可以查看上述输入数据来验证数据获取是否正常。
+
+**2. 技术面与消息面分析：**
+- **技术分析：** 该股票突破了布林带上轨，显示强烈的上涨动量
+- **消息面：** 收到了10条相关新闻，可在上方查看具体内容
+
+**3. 综合前景展望与量化判断：**
+- **短期展望：** 基于技术分析，预期继续上涨
+- **长期展望：** 看好
+- **目标价：** $562.39（上涨空间 +10%）
+
+**⚠️ 注意：这是调试模式的模拟输出，用于快速测试系统功能和验证数据获取。**
+</div>
+    </div>
+    
+    <div class="stock-card" id="MAR">
+        <h2>Marriot International Class A Common Stock (MAR)</h2>
+        <div class="metrics">
+            <span>R²: 0.713</span>
+            <span>斜率: 0.12</span>
+            <span>布林带穿透: 0.05%</span>
+        </div>
+        <img src="MAR_chart.png" alt="MAR 走势图" class="chart">
+        <h3>分析师模型总结</h3>
+        <div class="summary-content">**[调试模式输出]**
+
+**股票信息：Marriot International Class A Common Stock (MAR)**
+**当前价格：$254.97**
+
+---
+
+**📊 输入给大模型的数据（调试信息）：**
+
+**基本面数据：**
+- Market Cap: $71.16B
+- Pe Ratio: 30.54x
+- Ps Ratio: 2.84x
+- Eps Basic: $8.36
+- Revenue Annual: $25.10B
+- Net Income Annual: $2.38B
+
+**新闻信息（10条）：**
+- 来源：MockNews1
+  时间：2025-01-01
+  标题：[假新闻1] MAR 公司重要动态更新
+  内容/摘要：这是关于 MAR 的第1条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews2
+  时间：2025-01-01
+  标题：[假新闻2] MAR 公司重要动态更新
+  内容/摘要：这是关于 MAR 的第2条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews3
+  时间：2025-01-01
+  标题：[假新闻3] MAR 公司重要动态更新
+  内容/摘要：这是关于 MAR 的第3条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews4
+  时间：2025-01-01
+  标题：[假新闻4] MAR 公司重要动态更新
+  内容/摘要：这是关于 MAR 的第4条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews5
+  时间：2025-01-01
+  标题：[假新闻5] MAR 公司重要动态更新
+  内容/摘要：这是关于 MAR 的第5条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews6
+  时间：2025-01-01
+  标题：[假新闻6] MAR 公司重要动态更新
+  内容/摘要：这是关于 MAR 的第6条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews7
+  时间：2025-01-01
+  标题：[假新闻7] MAR 公司重要动态更新
+  内容/摘要：这是关于 MAR 的第7条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews8
+  时间：2025-01-01
+  标题：[假新闻8] MAR 公司重要动态更新
+  内容/摘要：这是关于 MAR 的第8条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews9
+  时间：2025-01-01
+  标题：[假新闻9] MAR 公司重要动态更新
+  内容/摘要：这是关于 MAR 的第9条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews10
+  时间：2025-01-01
+  标题：[假新闻10] MAR 公司重要动态更新
+  内容/摘要：这是关于 MAR 的第10条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+
+**图表路径：** reports/2025-06-14/us_stocks/MAR_chart.png
+
+---
+
+**🤖 模拟分析结果：**
+
+**1. 核心业务与基本面评估：**
+这是 Marriot International Class A Common Stock 的模拟分析报告。在调试模式下，我们跳过了实际的LLM调用，但可以查看上述输入数据来验证数据获取是否正常。
+
+**2. 技术面与消息面分析：**
+- **技术分析：** 该股票突破了布林带上轨，显示强烈的上涨动量
+- **消息面：** 收到了10条相关新闻，可在上方查看具体内容
+
+**3. 综合前景展望与量化判断：**
+- **短期展望：** 基于技术分析，预期继续上涨
+- **长期展望：** 看好
+- **目标价：** $280.47（上涨空间 +10%）
+
+**⚠️ 注意：这是调试模式的模拟输出，用于快速测试系统功能和验证数据获取。**
+</div>
+    </div>
+    
+    <div class="stock-card" id="MA">
+        <h2>Mastercard Incorporated (MA)</h2>
+        <div class="metrics">
+            <span>R²: 0.926</span>
+            <span>斜率: 0.25</span>
+            <span>布林带穿透: 0.66%</span>
+        </div>
+        <img src="MA_chart.png" alt="MA 走势图" class="chart">
+        <h3>分析师模型总结</h3>
+        <div class="summary-content">**[调试模式输出]**
+
+**股票信息：Mastercard Incorporated (MA)**
+**当前价格：$558.45**
+
+---
+
+**📊 输入给大模型的数据（调试信息）：**
+
+**基本面数据：**
+- Market Cap: $531.63B
+- Pe Ratio: 40.21x
+- Ps Ratio: 18.87x
+- Pb Ratio: 81.60x
+- Eps Basic: $13.91
+- Revenue Annual: $28.17B
+- Net Income Annual: $12.87B
+- Debt To Equity: 6.38
+
+**新闻信息（10条）：**
+- 来源：MockNews1
+  时间：2025-01-01
+  标题：[假新闻1] MA 公司重要动态更新
+  内容/摘要：这是关于 MA 的第1条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews2
+  时间：2025-01-01
+  标题：[假新闻2] MA 公司重要动态更新
+  内容/摘要：这是关于 MA 的第2条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews3
+  时间：2025-01-01
+  标题：[假新闻3] MA 公司重要动态更新
+  内容/摘要：这是关于 MA 的第3条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews4
+  时间：2025-01-01
+  标题：[假新闻4] MA 公司重要动态更新
+  内容/摘要：这是关于 MA 的第4条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews5
+  时间：2025-01-01
+  标题：[假新闻5] MA 公司重要动态更新
+  内容/摘要：这是关于 MA 的第5条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews6
+  时间：2025-01-01
+  标题：[假新闻6] MA 公司重要动态更新
+  内容/摘要：这是关于 MA 的第6条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews7
+  时间：2025-01-01
+  标题：[假新闻7] MA 公司重要动态更新
+  内容/摘要：这是关于 MA 的第7条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews8
+  时间：2025-01-01
+  标题：[假新闻8] MA 公司重要动态更新
+  内容/摘要：这是关于 MA 的第8条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews9
+  时间：2025-01-01
+  标题：[假新闻9] MA 公司重要动态更新
+  内容/摘要：这是关于 MA 的第9条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews10
+  时间：2025-01-01
+  标题：[假新闻10] MA 公司重要动态更新
+  内容/摘要：这是关于 MA 的第10条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+
+**图表路径：** reports/2025-06-14/us_stocks/MA_chart.png
+
+---
+
+**🤖 模拟分析结果：**
+
+**1. 核心业务与基本面评估：**
+这是 Mastercard Incorporated 的模拟分析报告。在调试模式下，我们跳过了实际的LLM调用，但可以查看上述输入数据来验证数据获取是否正常。
+
+**2. 技术面与消息面分析：**
+- **技术分析：** 该股票突破了布林带上轨，显示强烈的上涨动量
+- **消息面：** 收到了10条相关新闻，可在上方查看具体内容
+
+**3. 综合前景展望与量化判断：**
+- **短期展望：** 基于技术分析，预期继续上涨
+- **长期展望：** 看好
+- **目标价：** $614.30（上涨空间 +10%）
+
+**⚠️ 注意：这是调试模式的模拟输出，用于快速测试系统功能和验证数据获取。**
+</div>
+    </div>
+    
+    <div class="stock-card" id="NWSA">
+        <h2>News Corporation Class A Common Stock (NWSA)</h2>
+        <div class="metrics">
+            <span>R²: 0.827</span>
+            <span>斜率: 0.01</span>
+            <span>布林带穿透: 0.21%</span>
+        </div>
+        <img src="NWSA_chart.png" alt="NWSA 走势图" class="chart">
+        <h3>分析师模型总结</h3>
+        <div class="summary-content">**[调试模式输出]**
+
+**股票信息：News Corporation Class A Common Stock (NWSA)**
+**当前价格：$27.37**
+
+---
+
+**📊 输入给大模型的数据（调试信息）：**
+
+**基本面数据：**
+- Market Cap: $15.76B
+- Pe Ratio: 58.23x
+- Ps Ratio: 1.56x
+- Pb Ratio: 1.75x
+- Eps Basic: $0.47
+- Revenue Annual: $10.09B
+- Net Income Annual: $0.35B
+- Debt To Equity: 0.85
+
+**新闻信息（10条）：**
+- 来源：MockNews1
+  时间：2025-01-01
+  标题：[假新闻1] NWSA 公司重要动态更新
+  内容/摘要：这是关于 NWSA 的第1条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews2
+  时间：2025-01-01
+  标题：[假新闻2] NWSA 公司重要动态更新
+  内容/摘要：这是关于 NWSA 的第2条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews3
+  时间：2025-01-01
+  标题：[假新闻3] NWSA 公司重要动态更新
+  内容/摘要：这是关于 NWSA 的第3条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews4
+  时间：2025-01-01
+  标题：[假新闻4] NWSA 公司重要动态更新
+  内容/摘要：这是关于 NWSA 的第4条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews5
+  时间：2025-01-01
+  标题：[假新闻5] NWSA 公司重要动态更新
+  内容/摘要：这是关于 NWSA 的第5条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews6
+  时间：2025-01-01
+  标题：[假新闻6] NWSA 公司重要动态更新
+  内容/摘要：这是关于 NWSA 的第6条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews7
+  时间：2025-01-01
+  标题：[假新闻7] NWSA 公司重要动态更新
+  内容/摘要：这是关于 NWSA 的第7条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews8
+  时间：2025-01-01
+  标题：[假新闻8] NWSA 公司重要动态更新
+  内容/摘要：这是关于 NWSA 的第8条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews9
+  时间：2025-01-01
+  标题：[假新闻9] NWSA 公司重要动态更新
+  内容/摘要：这是关于 NWSA 的第9条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews10
+  时间：2025-01-01
+  标题：[假新闻10] NWSA 公司重要动态更新
+  内容/摘要：这是关于 NWSA 的第10条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+
+**图表路径：** reports/2025-06-14/us_stocks/NWSA_chart.png
+
+---
+
+**🤖 模拟分析结果：**
+
+**1. 核心业务与基本面评估：**
+这是 News Corporation Class A Common Stock 的模拟分析报告。在调试模式下，我们跳过了实际的LLM调用，但可以查看上述输入数据来验证数据获取是否正常。
+
+**2. 技术面与消息面分析：**
+- **技术分析：** 该股票突破了布林带上轨，显示强烈的上涨动量
+- **消息面：** 收到了10条相关新闻，可在上方查看具体内容
+
+**3. 综合前景展望与量化判断：**
+- **短期展望：** 基于技术分析，预期继续上涨
+- **长期展望：** 看好
+- **目标价：** $30.11（上涨空间 +10%）
+
+**⚠️ 注意：这是调试模式的模拟输出，用于快速测试系统功能和验证数据获取。**
+</div>
+    </div>
+    
+    <div class="stock-card" id="NWS">
+        <h2>News Corporation Class B Common Stock (NWS)</h2>
+        <div class="metrics">
+            <span>R²: 0.934</span>
+            <span>斜率: 0.02</span>
+            <span>布林带穿透: 0.13%</span>
+        </div>
+        <img src="NWS_chart.png" alt="NWS 走势图" class="chart">
+        <h3>分析师模型总结</h3>
+        <div class="summary-content">**[调试模式输出]**
+
+**股票信息：News Corporation Class B Common Stock (NWS)**
+**当前价格：$31.34**
+
+---
+
+**📊 输入给大模型的数据（调试信息）：**
+
+**基本面数据：**
+- Market Cap: $18.21B
+- Pe Ratio: 66.68x
+- Ps Ratio: 1.81x
+- Pb Ratio: 2.02x
+- Eps Basic: $0.47
+- Revenue Annual: $10.09B
+- Net Income Annual: $0.35B
+- Debt To Equity: 0.85
+
+**新闻信息（10条）：**
+- 来源：MockNews1
+  时间：2025-01-01
+  标题：[假新闻1] NWS 公司重要动态更新
+  内容/摘要：这是关于 NWS 的第1条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews2
+  时间：2025-01-01
+  标题：[假新闻2] NWS 公司重要动态更新
+  内容/摘要：这是关于 NWS 的第2条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews3
+  时间：2025-01-01
+  标题：[假新闻3] NWS 公司重要动态更新
+  内容/摘要：这是关于 NWS 的第3条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews4
+  时间：2025-01-01
+  标题：[假新闻4] NWS 公司重要动态更新
+  内容/摘要：这是关于 NWS 的第4条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews5
+  时间：2025-01-01
+  标题：[假新闻5] NWS 公司重要动态更新
+  内容/摘要：这是关于 NWS 的第5条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews6
+  时间：2025-01-01
+  标题：[假新闻6] NWS 公司重要动态更新
+  内容/摘要：这是关于 NWS 的第6条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews7
+  时间：2025-01-01
+  标题：[假新闻7] NWS 公司重要动态更新
+  内容/摘要：这是关于 NWS 的第7条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews8
+  时间：2025-01-01
+  标题：[假新闻8] NWS 公司重要动态更新
+  内容/摘要：这是关于 NWS 的第8条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews9
+  时间：2025-01-01
+  标题：[假新闻9] NWS 公司重要动态更新
+  内容/摘要：这是关于 NWS 的第9条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews10
+  时间：2025-01-01
+  标题：[假新闻10] NWS 公司重要动态更新
+  内容/摘要：这是关于 NWS 的第10条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+
+**图表路径：** reports/2025-06-14/us_stocks/NWS_chart.png
+
+---
+
+**🤖 模拟分析结果：**
+
+**1. 核心业务与基本面评估：**
+这是 News Corporation Class B Common Stock 的模拟分析报告。在调试模式下，我们跳过了实际的LLM调用，但可以查看上述输入数据来验证数据获取是否正常。
+
+**2. 技术面与消息面分析：**
+- **技术分析：** 该股票突破了布林带上轨，显示强烈的上涨动量
+- **消息面：** 收到了10条相关新闻，可在上方查看具体内容
+
+**3. 综合前景展望与量化判断：**
+- **短期展望：** 基于技术分析，预期继续上涨
+- **长期展望：** 看好
+- **目标价：** $34.47（上涨空间 +10%）
+
+**⚠️ 注意：这是调试模式的模拟输出，用于快速测试系统功能和验证数据获取。**
+</div>
+    </div>
+    
+    <div class="stock-card" id="PKG">
+        <h2>Packaging Corp of America (PKG)</h2>
+        <div class="metrics">
+            <span>R²: 0.740</span>
+            <span>斜率: 0.12</span>
+            <span>布林带穿透: 0.35%</span>
+        </div>
+        <img src="PKG_chart.png" alt="PKG 走势图" class="chart">
+        <h3>分析师模型总结</h3>
+        <div class="summary-content">**[调试模式输出]**
+
+**股票信息：Packaging Corp of America (PKG)**
+**当前价格：$188.71**
+
+---
+
+**📊 输入给大模型的数据（调试信息）：**
+
+**基本面数据：**
+- Market Cap: $17.52B
+- Pe Ratio: 21.04x
+- Ps Ratio: 2.09x
+- Pb Ratio: 3.98x
+- Eps Basic: $8.97
+- Revenue Annual: $8.38B
+- Net Income Annual: $0.81B
+- Debt To Equity: 1.01
+
+**新闻信息（10条）：**
+- 来源：MockNews1
+  时间：2025-01-01
+  标题：[假新闻1] PKG 公司重要动态更新
+  内容/摘要：这是关于 PKG 的第1条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews2
+  时间：2025-01-01
+  标题：[假新闻2] PKG 公司重要动态更新
+  内容/摘要：这是关于 PKG 的第2条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews3
+  时间：2025-01-01
+  标题：[假新闻3] PKG 公司重要动态更新
+  内容/摘要：这是关于 PKG 的第3条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews4
+  时间：2025-01-01
+  标题：[假新闻4] PKG 公司重要动态更新
+  内容/摘要：这是关于 PKG 的第4条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews5
+  时间：2025-01-01
+  标题：[假新闻5] PKG 公司重要动态更新
+  内容/摘要：这是关于 PKG 的第5条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews6
+  时间：2025-01-01
+  标题：[假新闻6] PKG 公司重要动态更新
+  内容/摘要：这是关于 PKG 的第6条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews7
+  时间：2025-01-01
+  标题：[假新闻7] PKG 公司重要动态更新
+  内容/摘要：这是关于 PKG 的第7条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews8
+  时间：2025-01-01
+  标题：[假新闻8] PKG 公司重要动态更新
+  内容/摘要：这是关于 PKG 的第8条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews9
+  时间：2025-01-01
+  标题：[假新闻9] PKG 公司重要动态更新
+  内容/摘要：这是关于 PKG 的第9条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews10
+  时间：2025-01-01
+  标题：[假新闻10] PKG 公司重要动态更新
+  内容/摘要：这是关于 PKG 的第10条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+
+**图表路径：** reports/2025-06-14/us_stocks/PKG_chart.png
+
+---
+
+**🤖 模拟分析结果：**
+
+**1. 核心业务与基本面评估：**
+这是 Packaging Corp of America 的模拟分析报告。在调试模式下，我们跳过了实际的LLM调用，但可以查看上述输入数据来验证数据获取是否正常。
+
+**2. 技术面与消息面分析：**
+- **技术分析：** 该股票突破了布林带上轨，显示强烈的上涨动量
+- **消息面：** 收到了10条相关新闻，可在上方查看具体内容
+
+**3. 综合前景展望与量化判断：**
+- **短期展望：** 基于技术分析，预期继续上涨
+- **长期展望：** 看好
+- **目标价：** $207.58（上涨空间 +10%）
+
+**⚠️ 注意：这是调试模式的模拟输出，用于快速测试系统功能和验证数据获取。**
+</div>
+    </div>
+    
+    <div class="stock-card" id="PNR">
+        <h2>Pentair plc (PNR)</h2>
+        <div class="metrics">
+            <span>R²: 0.803</span>
+            <span>斜率: 0.06</span>
+            <span>布林带穿透: 0.06%</span>
+        </div>
+        <img src="PNR_chart.png" alt="PNR 走势图" class="chart">
+        <h3>分析师模型总结</h3>
+        <div class="summary-content">**[调试模式输出]**
+
+**股票信息：Pentair plc (PNR)**
+**当前价格：$96.66**
+
+---
+
+**📊 输入给大模型的数据（调试信息）：**
+
+**基本面数据：**
+- Market Cap: $16.40B
+- Pe Ratio: 25.57x
+- Ps Ratio: 4.02x
+- Pb Ratio: 4.60x
+- Eps Basic: $3.78
+- Revenue Annual: $4.08B
+- Net Income Annual: $0.63B
+- Debt To Equity: 0.81
+
+**新闻信息（10条）：**
+- 来源：MockNews1
+  时间：2025-01-01
+  标题：[假新闻1] PNR 公司重要动态更新
+  内容/摘要：这是关于 PNR 的第1条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews2
+  时间：2025-01-01
+  标题：[假新闻2] PNR 公司重要动态更新
+  内容/摘要：这是关于 PNR 的第2条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews3
+  时间：2025-01-01
+  标题：[假新闻3] PNR 公司重要动态更新
+  内容/摘要：这是关于 PNR 的第3条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews4
+  时间：2025-01-01
+  标题：[假新闻4] PNR 公司重要动态更新
+  内容/摘要：这是关于 PNR 的第4条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews5
+  时间：2025-01-01
+  标题：[假新闻5] PNR 公司重要动态更新
+  内容/摘要：这是关于 PNR 的第5条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews6
+  时间：2025-01-01
+  标题：[假新闻6] PNR 公司重要动态更新
+  内容/摘要：这是关于 PNR 的第6条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews7
+  时间：2025-01-01
+  标题：[假新闻7] PNR 公司重要动态更新
+  内容/摘要：这是关于 PNR 的第7条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews8
+  时间：2025-01-01
+  标题：[假新闻8] PNR 公司重要动态更新
+  内容/摘要：这是关于 PNR 的第8条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews9
+  时间：2025-01-01
+  标题：[假新闻9] PNR 公司重要动态更新
+  内容/摘要：这是关于 PNR 的第9条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews10
+  时间：2025-01-01
+  标题：[假新闻10] PNR 公司重要动态更新
+  内容/摘要：这是关于 PNR 的第10条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+
+**图表路径：** reports/2025-06-14/us_stocks/PNR_chart.png
+
+---
+
+**🤖 模拟分析结果：**
+
+**1. 核心业务与基本面评估：**
+这是 Pentair plc 的模拟分析报告。在调试模式下，我们跳过了实际的LLM调用，但可以查看上述输入数据来验证数据获取是否正常。
+
+**2. 技术面与消息面分析：**
+- **技术分析：** 该股票突破了布林带上轨，显示强烈的上涨动量
+- **消息面：** 收到了10条相关新闻，可在上方查看具体内容
+
+**3. 综合前景展望与量化判断：**
+- **短期展望：** 基于技术分析，预期继续上涨
+- **长期展望：** 看好
+- **目标价：** $106.33（上涨空间 +10%）
+
+**⚠️ 注意：这是调试模式的模拟输出，用于快速测试系统功能和验证数据获取。**
+</div>
+    </div>
+    
+    <div class="stock-card" id="SPGI">
+        <h2>S&P Global Inc. (SPGI)</h2>
+        <div class="metrics">
+            <span>R²: 0.841</span>
+            <span>斜率: 0.22</span>
+            <span>布林带穿透: 0.43%</span>
+        </div>
+        <img src="SPGI_chart.png" alt="SPGI 走势图" class="chart">
+        <h3>分析师模型总结</h3>
+        <div class="summary-content">**[调试模式输出]**
+
+**股票信息：S&P Global Inc. (SPGI)**
+**当前价格：$500.79**
+
+---
+
+**📊 输入给大模型的数据（调试信息）：**
+
+**基本面数据：**
+- Market Cap: $158.17B
+- Pe Ratio: 60.70x
+- Ps Ratio: 12.66x
+- Pb Ratio: 4.61x
+- Eps Basic: $8.25
+- Revenue Annual: $12.50B
+- Net Income Annual: $2.89B
+- Debt To Equity: 0.66
+
+**新闻信息（10条）：**
+- 来源：MockNews1
+  时间：2025-01-01
+  标题：[假新闻1] SPGI 公司重要动态更新
+  内容/摘要：这是关于 SPGI 的第1条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews2
+  时间：2025-01-01
+  标题：[假新闻2] SPGI 公司重要动态更新
+  内容/摘要：这是关于 SPGI 的第2条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews3
+  时间：2025-01-01
+  标题：[假新闻3] SPGI 公司重要动态更新
+  内容/摘要：这是关于 SPGI 的第3条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews4
+  时间：2025-01-01
+  标题：[假新闻4] SPGI 公司重要动态更新
+  内容/摘要：这是关于 SPGI 的第4条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews5
+  时间：2025-01-01
+  标题：[假新闻5] SPGI 公司重要动态更新
+  内容/摘要：这是关于 SPGI 的第5条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews6
+  时间：2025-01-01
+  标题：[假新闻6] SPGI 公司重要动态更新
+  内容/摘要：这是关于 SPGI 的第6条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews7
+  时间：2025-01-01
+  标题：[假新闻7] SPGI 公司重要动态更新
+  内容/摘要：这是关于 SPGI 的第7条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews8
+  时间：2025-01-01
+  标题：[假新闻8] SPGI 公司重要动态更新
+  内容/摘要：这是关于 SPGI 的第8条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews9
+  时间：2025-01-01
+  标题：[假新闻9] SPGI 公司重要动态更新
+  内容/摘要：这是关于 SPGI 的第9条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews10
+  时间：2025-01-01
+  标题：[假新闻10] SPGI 公司重要动态更新
+  内容/摘要：这是关于 SPGI 的第10条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+
+**图表路径：** reports/2025-06-14/us_stocks/SPGI_chart.png
+
+---
+
+**🤖 模拟分析结果：**
+
+**1. 核心业务与基本面评估：**
+这是 S&P Global Inc. 的模拟分析报告。在调试模式下，我们跳过了实际的LLM调用，但可以查看上述输入数据来验证数据获取是否正常。
+
+**2. 技术面与消息面分析：**
+- **技术分析：** 该股票突破了布林带上轨，显示强烈的上涨动量
+- **消息面：** 收到了10条相关新闻，可在上方查看具体内容
+
+**3. 综合前景展望与量化判断：**
+- **短期展望：** 基于技术分析，预期继续上涨
+- **长期展望：** 看好
+- **目标价：** $550.87（上涨空间 +10%）
+
+**⚠️ 注意：这是调试模式的模拟输出，用于快速测试系统功能和验证数据获取。**
+</div>
+    </div>
+    
+    <div class="stock-card" id="SHW">
+        <h2>The Sherwin-Williams Company (SHW)</h2>
+        <div class="metrics">
+            <span>R²: 0.777</span>
+            <span>斜率: 0.18</span>
+            <span>布林带穿透: 2.53%</span>
+        </div>
+        <img src="SHW_chart.png" alt="SHW 走势图" class="chart">
+        <h3>分析师模型总结</h3>
+        <div class="summary-content">**[调试模式输出]**
+
+**股票信息：The Sherwin-Williams Company (SHW)**
+**当前价格：$337.11**
+
+---
+
+**📊 输入给大模型的数据（调试信息）：**
+
+**基本面数据：**
+- Market Cap: $89.68B
+- Pe Ratio: 31.56x
+- Ps Ratio: 3.88x
+- Pb Ratio: 22.14x
+- Eps Basic: $10.68
+- Revenue Annual: $23.10B
+- Net Income Annual: $2.68B
+- Debt To Equity: 4.83
+
+**新闻信息（10条）：**
+- 来源：MockNews1
+  时间：2025-01-01
+  标题：[假新闻1] SHW 公司重要动态更新
+  内容/摘要：这是关于 SHW 的第1条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews2
+  时间：2025-01-01
+  标题：[假新闻2] SHW 公司重要动态更新
+  内容/摘要：这是关于 SHW 的第2条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews3
+  时间：2025-01-01
+  标题：[假新闻3] SHW 公司重要动态更新
+  内容/摘要：这是关于 SHW 的第3条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews4
+  时间：2025-01-01
+  标题：[假新闻4] SHW 公司重要动态更新
+  内容/摘要：这是关于 SHW 的第4条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews5
+  时间：2025-01-01
+  标题：[假新闻5] SHW 公司重要动态更新
+  内容/摘要：这是关于 SHW 的第5条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews6
+  时间：2025-01-01
+  标题：[假新闻6] SHW 公司重要动态更新
+  内容/摘要：这是关于 SHW 的第6条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews7
+  时间：2025-01-01
+  标题：[假新闻7] SHW 公司重要动态更新
+  内容/摘要：这是关于 SHW 的第7条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews8
+  时间：2025-01-01
+  标题：[假新闻8] SHW 公司重要动态更新
+  内容/摘要：这是关于 SHW 的第8条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews9
+  时间：2025-01-01
+  标题：[假新闻9] SHW 公司重要动态更新
+  内容/摘要：这是关于 SHW 的第9条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews10
+  时间：2025-01-01
+  标题：[假新闻10] SHW 公司重要动态更新
+  内容/摘要：这是关于 SHW 的第10条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+
+**图表路径：** reports/2025-06-14/us_stocks/SHW_chart.png
+
+---
+
+**🤖 模拟分析结果：**
+
+**1. 核心业务与基本面评估：**
+这是 The Sherwin-Williams Company 的模拟分析报告。在调试模式下，我们跳过了实际的LLM调用，但可以查看上述输入数据来验证数据获取是否正常。
+
+**2. 技术面与消息面分析：**
+- **技术分析：** 该股票突破了布林带上轨，显示强烈的上涨动量
+- **消息面：** 收到了10条相关新闻，可在上方查看具体内容
+
+**3. 综合前景展望与量化判断：**
+- **短期展望：** 基于技术分析，预期继续上涨
+- **长期展望：** 看好
+- **目标价：** $370.82（上涨空间 +10%）
+
+**⚠️ 注意：这是调试模式的模拟输出，用于快速测试系统功能和验证数据获取。**
+</div>
+    </div>
+    
+    <div class="stock-card" id="NOW">
+        <h2>SERVICENOW, INC. (NOW)</h2>
+        <div class="metrics">
+            <span>R²: 0.816</span>
+            <span>斜率: 0.69</span>
+            <span>布林带穿透: 0.90%</span>
+        </div>
+        <img src="NOW_chart.png" alt="NOW 走势图" class="chart">
+        <h3>分析师模型总结</h3>
+        <div class="summary-content">**[调试模式输出]**
+
+**股票信息：SERVICENOW, INC. (NOW)**
+**当前价格：$982.59**
+
+---
+
+**📊 输入给大模型的数据（调试信息）：**
+
+**基本面数据：**
+- Market Cap: $210.80B
+- Pe Ratio: 141.99x
+- Ps Ratio: 19.19x
+- Pb Ratio: 21.94x
+- Eps Basic: $6.92
+- Revenue Annual: $10.98B
+- Net Income Annual: $1.43B
+- Debt To Equity: 1.12
+
+**新闻信息（10条）：**
+- 来源：MockNews1
+  时间：2025-01-01
+  标题：[假新闻1] NOW 公司重要动态更新
+  内容/摘要：这是关于 NOW 的第1条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews2
+  时间：2025-01-01
+  标题：[假新闻2] NOW 公司重要动态更新
+  内容/摘要：这是关于 NOW 的第2条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews3
+  时间：2025-01-01
+  标题：[假新闻3] NOW 公司重要动态更新
+  内容/摘要：这是关于 NOW 的第3条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews4
+  时间：2025-01-01
+  标题：[假新闻4] NOW 公司重要动态更新
+  内容/摘要：这是关于 NOW 的第4条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews5
+  时间：2025-01-01
+  标题：[假新闻5] NOW 公司重要动态更新
+  内容/摘要：这是关于 NOW 的第5条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews6
+  时间：2025-01-01
+  标题：[假新闻6] NOW 公司重要动态更新
+  内容/摘要：这是关于 NOW 的第6条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews7
+  时间：2025-01-01
+  标题：[假新闻7] NOW 公司重要动态更新
+  内容/摘要：这是关于 NOW 的第7条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews8
+  时间：2025-01-01
+  标题：[假新闻8] NOW 公司重要动态更新
+  内容/摘要：这是关于 NOW 的第8条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews9
+  时间：2025-01-01
+  标题：[假新闻9] NOW 公司重要动态更新
+  内容/摘要：这是关于 NOW 的第9条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews10
+  时间：2025-01-01
+  标题：[假新闻10] NOW 公司重要动态更新
+  内容/摘要：这是关于 NOW 的第10条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+
+**图表路径：** reports/2025-06-14/us_stocks/NOW_chart.png
+
+---
+
+**🤖 模拟分析结果：**
+
+**1. 核心业务与基本面评估：**
+这是 SERVICENOW, INC. 的模拟分析报告。在调试模式下，我们跳过了实际的LLM调用，但可以查看上述输入数据来验证数据获取是否正常。
+
+**2. 技术面与消息面分析：**
+- **技术分析：** 该股票突破了布林带上轨，显示强烈的上涨动量
+- **消息面：** 收到了10条相关新闻，可在上方查看具体内容
+
+**3. 综合前景展望与量化判断：**
+- **短期展望：** 基于技术分析，预期继续上涨
+- **长期展望：** 看好
+- **目标价：** $1080.85（上涨空间 +10%）
+
+**⚠️ 注意：这是调试模式的模拟输出，用于快速测试系统功能和验证数据获取。**
+</div>
+    </div>
+    
+    <div class="stock-card" id="TMUS">
+        <h2>T-Mobile US, Inc. (TMUS)</h2>
+        <div class="metrics">
+            <span>R²: 0.921</span>
+            <span>斜率: 0.18</span>
+            <span>布林带穿透: 0.96%</span>
+        </div>
+        <img src="TMUS_chart.png" alt="TMUS 走势图" class="chart">
+        <h3>分析师模型总结</h3>
+        <div class="summary-content">**[调试模式输出]**
+
+**股票信息：T-Mobile US, Inc. (TMUS)**
+**当前价格：$227.33**
+
+---
+
+**📊 输入给大模型的数据（调试信息）：**
+
+**基本面数据：**
+- Market Cap: $278.07B
+- Pe Ratio: 23.44x
+- Ps Ratio: 3.42x
+- Pb Ratio: 4.50x
+- Eps Basic: $9.70
+- Revenue Annual: $81.40B
+- Net Income Annual: $11.34B
+- Debt To Equity: 2.37
+
+**新闻信息（10条）：**
+- 来源：MockNews1
+  时间：2025-01-01
+  标题：[假新闻1] TMUS 公司重要动态更新
+  内容/摘要：这是关于 TMUS 的第1条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews2
+  时间：2025-01-01
+  标题：[假新闻2] TMUS 公司重要动态更新
+  内容/摘要：这是关于 TMUS 的第2条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews3
+  时间：2025-01-01
+  标题：[假新闻3] TMUS 公司重要动态更新
+  内容/摘要：这是关于 TMUS 的第3条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews4
+  时间：2025-01-01
+  标题：[假新闻4] TMUS 公司重要动态更新
+  内容/摘要：这是关于 TMUS 的第4条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews5
+  时间：2025-01-01
+  标题：[假新闻5] TMUS 公司重要动态更新
+  内容/摘要：这是关于 TMUS 的第5条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews6
+  时间：2025-01-01
+  标题：[假新闻6] TMUS 公司重要动态更新
+  内容/摘要：这是关于 TMUS 的第6条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews7
+  时间：2025-01-01
+  标题：[假新闻7] TMUS 公司重要动态更新
+  内容/摘要：这是关于 TMUS 的第7条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews8
+  时间：2025-01-01
+  标题：[假新闻8] TMUS 公司重要动态更新
+  内容/摘要：这是关于 TMUS 的第8条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews9
+  时间：2025-01-01
+  标题：[假新闻9] TMUS 公司重要动态更新
+  内容/摘要：这是关于 TMUS 的第9条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews10
+  时间：2025-01-01
+  标题：[假新闻10] TMUS 公司重要动态更新
+  内容/摘要：这是关于 TMUS 的第10条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+
+**图表路径：** reports/2025-06-14/us_stocks/TMUS_chart.png
+
+---
+
+**🤖 模拟分析结果：**
+
+**1. 核心业务与基本面评估：**
+这是 T-Mobile US, Inc. 的模拟分析报告。在调试模式下，我们跳过了实际的LLM调用，但可以查看上述输入数据来验证数据获取是否正常。
+
+**2. 技术面与消息面分析：**
+- **技术分析：** 该股票突破了布林带上轨，显示强烈的上涨动量
+- **消息面：** 收到了10条相关新闻，可在上方查看具体内容
+
+**3. 综合前景展望与量化判断：**
+- **短期展望：** 基于技术分析，预期继续上涨
+- **长期展望：** 看好
+- **目标价：** $250.06（上涨空间 +10%）
+
+**⚠️ 注意：这是调试模式的模拟输出，用于快速测试系统功能和验证数据获取。**
+</div>
+    </div>
+    
+    <div class="stock-card" id="GWW">
+        <h2>W.W. Grainger, Inc. (GWW)</h2>
+        <div class="metrics">
+            <span>R²: 0.788</span>
+            <span>斜率: 0.58</span>
+            <span>布林带穿透: 0.09%</span>
+        </div>
+        <img src="GWW_chart.png" alt="GWW 走势图" class="chart">
+        <h3>分析师模型总结</h3>
+        <div class="summary-content">**[调试模式输出]**
+
+**股票信息：W.W. Grainger, Inc. (GWW)**
+**当前价格：$1064.40**
+
+---
+
+**📊 输入给大模型的数据（调试信息）：**
+
+**基本面数据：**
+- Market Cap: $52.15B
+- Pe Ratio: 27.40x
+- Ps Ratio: 3.04x
+- Pb Ratio: 14.08x
+- Eps Basic: $38.84
+- Revenue Annual: $17.17B
+- Net Income Annual: $1.99B
+- Debt To Equity: 1.38
+
+**新闻信息（10条）：**
+- 来源：MockNews1
+  时间：2025-01-01
+  标题：[假新闻1] GWW 公司重要动态更新
+  内容/摘要：这是关于 GWW 的第1条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews2
+  时间：2025-01-01
+  标题：[假新闻2] GWW 公司重要动态更新
+  内容/摘要：这是关于 GWW 的第2条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews3
+  时间：2025-01-01
+  标题：[假新闻3] GWW 公司重要动态更新
+  内容/摘要：这是关于 GWW 的第3条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews4
+  时间：2025-01-01
+  标题：[假新闻4] GWW 公司重要动态更新
+  内容/摘要：这是关于 GWW 的第4条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews5
+  时间：2025-01-01
+  标题：[假新闻5] GWW 公司重要动态更新
+  内容/摘要：这是关于 GWW 的第5条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews6
+  时间：2025-01-01
+  标题：[假新闻6] GWW 公司重要动态更新
+  内容/摘要：这是关于 GWW 的第6条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews7
+  时间：2025-01-01
+  标题：[假新闻7] GWW 公司重要动态更新
+  内容/摘要：这是关于 GWW 的第7条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews8
+  时间：2025-01-01
+  标题：[假新闻8] GWW 公司重要动态更新
+  内容/摘要：这是关于 GWW 的第8条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews9
+  时间：2025-01-01
+  标题：[假新闻9] GWW 公司重要动态更新
+  内容/摘要：这是关于 GWW 的第9条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+- 来源：MockNews10
+  时间：2025-01-01
+  标题：[假新闻10] GWW 公司重要动态更新
+  内容/摘要：这是关于 GWW 的第10条模拟新闻内容。包含市场分析、业绩预期和行业动态等信息。
+
+**图表路径：** reports/2025-06-14/us_stocks/GWW_chart.png
+
+---
+
+**🤖 模拟分析结果：**
+
+**1. 核心业务与基本面评估：**
+这是 W.W. Grainger, Inc. 的模拟分析报告。在调试模式下，我们跳过了实际的LLM调用，但可以查看上述输入数据来验证数据获取是否正常。
+
+**2. 技术面与消息面分析：**
+- **技术分析：** 该股票突破了布林带上轨，显示强烈的上涨动量
+- **消息面：** 收到了10条相关新闻，可在上方查看具体内容
+
+**3. 综合前景展望与量化判断：**
+- **短期展望：** 基于技术分析，预期继续上涨
+- **长期展望：** 看好
+- **目标价：** $1170.84（上涨空间 +10%）
+
+**⚠️ 注意：这是调试模式的模拟输出，用于快速测试系统功能和验证数据获取。**
+</div>
+    </div>
+    
+        </main>
+    </div>
+    <script>
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('.summary-content').forEach(container => {
+        const template = document.createElement('template');
+        template.innerHTML = container.innerHTML;
+        const rawMarkdown = template.content.textContent || template.content.innerText;
+        container.innerHTML = marked.parse(rawMarkdown);
+    });
+});
+</script>
+</body>
+</html>
