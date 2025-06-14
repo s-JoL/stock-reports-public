@@ -11,6 +11,56 @@
                      padding: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         h1 { text-align: center; color: #212529; border-bottom: 2px solid #007bff; 
              padding-bottom: 0.5rem; margin-bottom: 2rem; }
+        .strategy-section { 
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef); 
+            border-radius: 10px; 
+            padding: 1.5rem; 
+            margin-bottom: 2rem; 
+            border-left: 4px solid #007bff; 
+        }
+        .strategy-title { 
+            color: #007bff; 
+            font-size: 1.3rem; 
+            font-weight: 600; 
+            margin-bottom: 1rem; 
+            display: flex; 
+            align-items: center; 
+        }
+        .strategy-content { 
+            font-size: 0.95rem; 
+            color: #495057; 
+            line-height: 1.7; 
+        }
+        .flow-steps { 
+            list-style: none; 
+            padding: 0; 
+            margin: 1rem 0; 
+        }
+        .flow-steps li { 
+            background: #ffffff; 
+            margin: 0.5rem 0; 
+            padding: 0.8rem 1rem; 
+            border-radius: 6px; 
+            border-left: 3px solid #28a745; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
+        }
+        .flow-steps li strong { 
+            color: #28a745; 
+        }
+        .markets-info { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 1rem; 
+            margin: 1rem 0; 
+        }
+        .market-tag { 
+            background: #007bff; 
+            color: white; 
+            padding: 0.3rem 0.8rem; 
+            border-radius: 15px; 
+            font-size: 0.85rem; 
+            font-weight: 500; 
+        }
         .report-list { list-style-type: none; padding: 0; }
         .report-list li { background-color: #fdfdff; margin-bottom: 1rem; border-radius: 8px; 
                           box-shadow: 0 2px 5px rgba(0,0,0,0.05); transition: transform 0.2s ease, box-shadow 0.2s ease; }
@@ -27,6 +77,46 @@
 <body>
     <div class="container">
         <h1>📈 股票异动分析报告索引</h1>
+        
+        <div class="strategy-section">
+            <div class="strategy-title">
+                🤖 系统策略说明
+            </div>
+            <div class="strategy-content">
+                <p><strong>GPTfolio</strong> 是一个AI驱动的智能股票异动分析系统，每日自动筛选并分析具有投资潜力的股票异动。</p>
+                
+                <div class="markets-info">
+                    <span class="market-tag">🇺🇸 美股 S&P500</span>
+                    <span class="market-tag">🇨🇳 中概股 CSI500</span>
+                    <span class="market-tag">🇭🇰 港股 AH股</span>
+                </div>
+                
+                <p><strong>核心工作流程：</strong></p>
+                <ol class="flow-steps">
+                    <li><strong>1. 多市场股票筛选</strong> - 从S&P500、CSI500、AH股中筛选标的</li>
+                    <li><strong>2. 市值过滤</strong> - 对美股进行大盘股筛选，确保流动性</li>
+                    <li><strong>3. 趋势分析</strong> - 使用线性回归识别强势趋势股票（R²≥0.65）</li>
+                    <li><strong>4. 布林带策略</strong> - 筛选价格低于布林带下轨的被低估股票</li>
+                    <li><strong>5. 数据整合</strong> - 批量获取新闻、基本面数据和技术指标</li>
+                    <li><strong>6. AI深度分析</strong> - 使用Doubao Seed大语言模型生成专业投资分析报告</li>
+                    <li><strong>7. 可视化展示</strong> - 生成走势图表和HTML报告页面</li>
+                </ol>
+                
+                <p><strong>技术特点：</strong></p>
+                <ul style="margin: 0.5rem 0; padding-left: 1.5rem;">
+                    <li>📊 <strong>多策略融合</strong>：线性回归 + 布林带低估筛选</li>
+                    <li>🔍 <strong>智能筛选</strong>：R²系数≥0.65的强趋势股票</li>
+                    <li>🤖 <strong>AI分析</strong>：集成Doubao Seed大语言模型进行深度解读</li>
+                    <li>⚡ <strong>高效处理</strong>：并行计算和批量数据获取优化</li>
+                    <li>📈 <strong>实时部署</strong>：自动生成并部署到GitHub Pages</li>
+                </ul>
+                
+                <p style="margin-top: 1rem; padding: 0.8rem; background: #fff3cd; border-radius: 6px; border: 1px solid #ffeaa7; color: #856404;">
+                    <strong>⚠️ 投资风险提示</strong>：本报告仅供参考，不构成投资建议。股市有风险，投资需谨慎。
+                </p>
+            </div>
+        </div>
+        
         <ul class="report-list"><li class="latest"><a href="reports/2025-06-15/index.html">📊 2025-06-15 的分析报告 🔥 最新</a></li><li><a href="reports/2025-06-14/index.html">📊 2025-06-14 的分析报告</a></li><li><a href="reports/2025-06-13/index.html">📊 2025-06-13 的分析报告</a></li><li><a href="reports/2025-06-12/index.html">📊 2025-06-12 的分析报告</a></li>
         </ul>
         <div class="footer">
